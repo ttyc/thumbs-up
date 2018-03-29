@@ -1,0 +1,72 @@
+.score-box{
+    width: 90px;
+    margin: 20px 0 0 20px;
+    text-align: center;
+}
+.hands {
+    color: red;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.hands .head-center .finger{
+    min-height: 1rem;
+    border: 2px solid red;
+    height: 10px;
+    width: 30px;
+    height: 15px;
+    transform: perspective(80px) rotateY(-45deg);
+    border-radius:20px 20px  20px 10px;
+    border-bottom: 0;
+    border-top: 1px solid red;
+}
+
+
+.hands .head-center .finger:first-child{
+    width: 20px;
+    height: 50px;
+    transform: perspective(25px) rotateX(-20deg) rotateY(38deg) rotateZ(-7deg);
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+    position: relative;
+    left: 8px;
+    top: 10px;
+    border-bottom: 0;
+}
+.hands .head-center .finger:nth-child(2){
+    border-top: 2px solid red;
+    width: 70px;
+    transform: perspective(80px) rotateY(-45deg) rotateZ(-10deg);
+
+}
+.hands .head-center .finger:nth-child(3){
+    width: 65px;
+    transform: perspective(80px) rotateY(-45deg) rotateZ(-4deg);
+
+}
+.hands .head-center .finger:nth-child(4){
+    width: 63px;
+    transform: perspective(80px) rotateY(-46deg) rotateZ(-2deg);
+
+}
+.hands .head-center .finger:last-child{
+    border-bottom: 2px solid red;
+    width: 60px;
+    transform: perspective(80px) rotateY(-53deg) rotateZ(4deg);
+
+}
+
+.hands .f{
+    position: absolute;
+    left: -9px;
+    top: 58px;
+    width: 21px;
+    height: 60px;
+    border-radius: 50px  0 0 50px;
+    border: 2px solid red;
+    border-right: none;
+    transform: perspective(100px) rotateY(-3deg) rotateZ(-10deg);
+
+}
+
